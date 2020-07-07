@@ -1,0 +1,25 @@
+{
+  "name": "anycolonyimagegenerator",
+  "version": "1.0.0",
+  "description": "twitter bot that autoposts algorithm generated images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "steven woerpel",
+  "license": "ISC",
+  "dependencies": {
+    "chroma-js": "^2.1.0",
+    "chromotome": "^1.15.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "paper": "^0.12.3",
+    "paper-jsdom": "^0.12.3",
+    "paper-jsdom-canvas": "^0.12.3",
+    "svg2img": "^0.6.1",
+    "twit": "^2.2.11"
+  },
+  "engines": {
+    "node": "12.13.0"
+  }
+}
